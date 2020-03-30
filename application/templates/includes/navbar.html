@@ -1,0 +1,19 @@
+{% include 'includes/headers.html' %}
+<link rel="stylesheet" href="static/css/nav_style_1.css">
+<script src="static/js/nav_j.js"></script>
+<nav class="nav dark-nav">
+    <div class="container">
+      <div class="nav-heading">
+        <button class="toggle-nav" data-toggle="open-navbar1"><i class="fa fa-align-right"></i></button>
+        <a class="brand" href="#">Imankalyan</a>
+      </div>
+      <div class="menu" id="open-navbar1">
+        <ul class="list">
+          <li><a href="{{ url_for('index') }}">Home</a></li>
+          <li><a href="{{url_for('projects')}}">Projects</a></li>
+          <li><a href="{{ url_for('ach') }}">Achievements </a></li>
+          <li><a href="{{ url_for('about') }}">About me</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
