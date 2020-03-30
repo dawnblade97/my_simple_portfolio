@@ -10,6 +10,6 @@ pyparsing==2.3.0
 python-dateutil==2.7.5
 six==1.11.0
 SQLAlchemy==1.2.14
-Werkzeug==0.14.1
+Werkzeug==0.15.3
 WTForms==2.2.1
 gunicorn==20.0.4
